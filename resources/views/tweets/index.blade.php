@@ -5,7 +5,6 @@ Tweets Index
 @endsection
 
 @section('content')
-<h1>Tweets Index</h1>
 @if ( session()->get('success'))
 <div role="alert">
 	{{session()->get('success')}}

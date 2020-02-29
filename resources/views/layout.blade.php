@@ -12,6 +12,10 @@
 
 		</head>
 		<body>
+			<h1>
+			@yield('title')
+			</h1>
+			@include('partials.navigation')
 			@yield('content')
 
 		</body>
